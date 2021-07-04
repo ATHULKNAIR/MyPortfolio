@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
-        if(this.scrollY > 20){
+        if(this.scrollY > 600){
             $('.navbar').addClass("sticky");
-        }else{
+        }
+        else{
             $('.navbar').removeClass("sticky");
         }
         
@@ -14,6 +15,32 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+
+    $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 350) {
+            $('.home-content').hide();
+        }
+        else {
+            $('.home-content').show();
+        }
+        if($(window).scrollTop()<1320){
+            $('.social').hide();
+        }        else {
+            $('.social').show();
+        }
+   });
+   
+  
+   $(".full-landing-image").ripples({
+    resolution: 512,
+    dropRadius: 20,
+    interactive: true,
+    perturbance: 0.02,
+});
+
+ 
+
+
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
@@ -42,7 +69,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Programmer", "Web Developer", "Freelancer","Teacher"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -71,3 +98,6 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
