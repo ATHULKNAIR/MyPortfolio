@@ -605,7 +605,7 @@ section .title::after {
     
     height: 100vh;
     width: 100%;
-    margin-top:-60px;
+    margin-top:-80px;
 
 }
 
@@ -615,24 +615,34 @@ section .title::after {
 }
 
 .skills .title::after, .teams .title::after {
-    content: "what i provide";
+    content: "what i am";
     background-color: rgb(12, 12, 12, 0.2);
     color: red;
     font-weight: 500;
 }
 
 .skills .skills-content .column {
-    width: calc(50% - 30px);
+    width: calc(50% - 50px);
+  
 }
 
 .skills .skills-content .left .text {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    color:white;
+   
 }
 
 .skills .skills-content .left p {
+    font-size: 18px;
     text-align: justify;
+    font-weight: 600;
+    color:crimson;
+}
+.skills .skills-content .left p span {
+    text-align: right;
+    color:bisque;
 }
 
 .skills .skills-content .left a {
@@ -655,6 +665,7 @@ section .title::after {
 
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
+
 }
 
 .skills .skills-content .right .info {
@@ -665,9 +676,15 @@ section .title::after {
 }
 
 .skills .skills-content .right span {
+    /* background: red; */
+    /* margin-left: -100px; */
     font-weight: 500;
     font-size: 18px;
+    color:whitesmoke;
 }
+/* .skills .skills-content .right .right1{
+    margin-left: 1000px;
+} */
 
 .skills .skills-content .right .line {
     height: 5px;
@@ -685,30 +702,40 @@ section .title::after {
     background: crimson;
 }
 
-.skills-content .right .html::before {
-    width: 90%;
+.skills-content .right .html::before  {
+    width: 85%;
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 75%;
 }
 
 .skills-content .right .js::before {
     width: 80%;
 }
 
-.skills-content .right .php::before {
-    width: 50%;
+.skills-content .right .react::before {
+    width: 70%;
 }
 
-.skills-content .right .mysql::before {
-    width: 70%;
+.skills-content .right .python::before {
+    width: 60%;
+}
+.skills-content .right .java::before {
+    width: 60%;
+}
+
+.skills-content .right .mongo::before {
+    width: 65%;
+}
+
+.skills-content .right .node::before {
+    width: 80%;
 }
 
 /* project section styling */
 
 .project{
-    margin-top:-100px;
 
 }
 
@@ -813,6 +840,26 @@ figcaption {
     -webkit-transform: rotateX(-90deg);
     -webkit-transform-origin: 100% 0;
     -webkit-transition: .5s;
+
+}
+figcaption h3{
+    color:crimson;
+}
+figcaption p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+figcaption a{
+    display: inline;   
+    color:white;
+    padding: 5px 10px; 
+    margin-left: 200px;
+    margin-bottom: 50px;
+    background-color: crimson;
+    border: 2px crimson solid;
+}
+figcaption a:hover{
+    background-color: transparent;
 }
 
 figure:hover figcaption {
