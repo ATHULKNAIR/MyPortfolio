@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="images/symbol.png" type="image/x-icon">
     <title>Athul K Nair</title>
     <link rel="stylesheet" href="style.css">
@@ -81,7 +82,8 @@
                             download="Athul_Resume.pdf" target="_blank" class="card">My Resume</a>
                     </div>
                     <div class="column left ">
-                        <img src="http://www.simpleimageresizer.com/_uploads/photos/de37a16c/Athul_10.png" alt="Photo" class="athul">
+                        <img src="https://my-pdf-files.s3.ap-south-1.amazonaws.com/Athul.png" alt="Photo"
+                            class="athul">
 
                         <!-- https://my-pdf-files.s3.ap-south-1.amazonaws.com/main.jpg -->
                         <div class="social-icons">
@@ -109,13 +111,6 @@
                                 class="card social-icon social-icon--linkedin">
                                 <i class="fab fa-linkedin"></i>
                                 <div class="tooltip">Linkedin</div>
-                            </a>
-                            <!--5th-->
-
-                            <a href="https://www.codewars.com/users/ATHULKNAIR" target="_blank"
-                                class="card social-icon social-icon--codewars">
-                                <img src="images/codewars.png" class="codewars" />
-                                <div class="tooltip">CodeWars</div>
                             </a>
                             <!--6th-->
                             <a href="https://www.hackerrank.com/athul2639" target="_blank"
@@ -243,32 +238,32 @@
                         </div>
                         <div class="line python"></div>
                     </div>
-                
 
-                <div class="bars">
-                    <div class="info">
-                        <span>Java</span>
-                        <span>60%</span>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line java"></div>
                     </div>
-                    <div class="line java"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MongoDB</span>
-                        <span>65%</span>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MongoDB</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="line mongo"></div>
                     </div>
-                    <div class="line mongo"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>Node Js</span>
-                        <span>80%</span>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Node Js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line node"></div>
                     </div>
-                    <div class="line node"></div>
+
                 </div>
-               
             </div>
-        </div>
     </section>
 
     <!-- projects section start -->
@@ -279,7 +274,8 @@
 
                 <div class="box ">
                     <figure>
-                        <img class="buddybot" src="https://my-pdf-files.s3.ap-south-1.amazonaws.com/buddybot.jpg" alt="Buddy Bot">
+                        <img class="buddybot" src="https://my-pdf-files.s3.ap-south-1.amazonaws.com/buddybot.jpg"
+                            alt="Buddy Bot">
                         <figcaption>
                             <h3>Buddy Bot</h3>
                             <p>Its an AI Bot that works on the commands provided with. Input can be given through
@@ -413,20 +409,15 @@
                     </div>
 
                 </div>
-                <div class="map">
-                    <iframe src="http://maps.google.com/maps?q=11.2588,75.7804&z=5&output=embed"></iframe>
+               <div class="column right">
+                <div id="googleMap" ></div>
+                <!-- <iframe src="http://maps.google.com/maps?q=11.2588,75.7804&z=5&output=embed"></iframe> -->
 
-                </div>
+               </div>
+                
             </div>
         </section>
     </div>
-
-
-    <!-- footer section start -->
-    <!-- <footer>
-        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span
-                class="far fa-copyright"></span> 2020 All rights reserved.</span>
-    </footer> -->
 
     <script src="script.js"></script>
     <script type="text/javascript" src="ParticleEffects/vanilla-tilt.js"></script>
@@ -439,10 +430,10 @@
         });
     </script>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <!-- <script
+    <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABe1n9l4ZFLBWBqr-xJLNbGdt_uSuaMLo&callback=initMap&libraries=&v=weekly"
       async
-    ></script> -->
+    ></script>
 </body>
 
 </html>
