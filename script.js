@@ -99,6 +99,16 @@ $(document).ready(function(){
     });
 });
 
+function initMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(11.2588,75.7804),
+      zoom:12,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+
+
+
 
 
 
