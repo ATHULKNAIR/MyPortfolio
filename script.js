@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
-        if(this.scrollY > 600){
+        if(this.scrollY > 400){
             $('.navbar').addClass("sticky");
         }
         else{
@@ -23,11 +23,7 @@ $(document).ready(function(){
         else {
             $('.home-content').show();
         }
-        if($(window).scrollTop()<1320){
-            $('.social').hide();
-        }        else {
-            $('.social').show();
-        }
+       
    });
    
   
@@ -106,6 +102,7 @@ function initMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+
 
 
 
