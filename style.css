@@ -1167,14 +1167,15 @@ figure:hover figcaption {
     }
 
     .home .home-content .text-2 {
-        font-size: 65px;
+        font-size: 75px;
         font-weight: 500;
+        margin-top: -50px;
     }
     
     .home .home-content .text-3 {
-        font-size: 15px;
-        margin-top: -20px;
-        margin-left: -50px;
+        font-size: 20px;
+        margin-top: -60px;
+        margin-left: -80px;
         
     }
     
@@ -1345,7 +1346,7 @@ figure:hover figcaption {
     /* services section styling */
     
     .services {
-        /* margin-top:-10%; */
+        margin-top:-60px;
         width: 100%;
         justify-content: center;
     
@@ -1367,7 +1368,7 @@ figure:hover figcaption {
         background: #222;
         text-align: center;
         border-radius: 6px;
-        padding: 50px 25px;
+        padding: 30px 25px;
         cursor: pointer;
         transition: all 0.3s ease;
         display: block;
@@ -1387,13 +1388,13 @@ figure:hover figcaption {
     }
     
     .services .serv-content .card .text {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
         margin: 10px 0 5px 0;
     }
     .services .serv-content .card p{
         margin-top: -15px;
-        font-size: 12px;
+        font-size: 15px;
     }
     
     /* skills section styling */
@@ -1403,7 +1404,7 @@ figure:hover figcaption {
         
         height: 100vh;
         width: 100%;
-        /* margin-top:400px; */
+        margin-top:400px;
     
     }
     
@@ -1430,7 +1431,7 @@ figure:hover figcaption {
     }
     
     .skills .skills-content .left p {
-        font-size: 12px;
+        font-size: 15px;
         text-align: justify;
         font-weight: 600;
         color:crimson;
@@ -1476,7 +1477,7 @@ figure:hover figcaption {
     /* project section styling */
     
     .project{
-       margin-top: 100px;
+       margin-top: 20px;
        width:100%;
     }
 
@@ -1634,4 +1635,5 @@ figure:hover figcaption {
     
     
 }
+
 
